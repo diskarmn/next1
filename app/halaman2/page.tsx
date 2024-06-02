@@ -29,7 +29,7 @@ const Home= ()=>{
       <p className="text-2xl">{base_url}</p>
       {posts.length > 0 && (
         <div>
-          <p>First post ID: {posts[0].id}</p>
+          <p>IDnya: {posts[0].id}</p>
           <p>title: {posts[4].title}</p>
         </div>
       )}
